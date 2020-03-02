@@ -1,0 +1,77 @@
+body{
+	margin: 0 auto;
+	width: 80%;
+	background-color:darkred;
+}
+#contenedor{
+	border-radius:20px 20px 20px 20px;
+	margin:1px solid black
+	width:100%;
+}
+#banner-principal{
+
+	margin-top:77px;
+}
+h1{
+	display: inline;
+	padding 10px;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+    filter: grayscale(1);
+}
+p{
+	color:black;
+	text-transform: uppercase;
+	font-family: Arial;
+    filter: grayscale(1);	
+}
+h1:hover{
+    filter: none;
+}
+#menu{
+	margin-top:50px;
+}
+.menu li{
+	display: inline;
+	padding:5px;
+	color:black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+}
+.menu li a{
+	text-decoration: none;
+	color:black;
+	border-radius:20px 0px 20px 0;
+	border:1px solid black;
+	padding:5px;
+}
+.menu li a:hover{
+	color:grey;
+}
+#portizq{
+	float:left;
+	width:50%;
+}
+#portdcha{
+	float:right;
+	width:50%;
+}
+#portizq img{
+	border-radius:20px 20px 20px 20px;
+	padding:5px;
+    filter: grayscale(1);
+}
+#portdcha img{
+	border-radius:20px 20px 20px 20px;
+	padding:5px;
+    filter: grayscale(1);
+}
+#portizq img:hover{
+    filter: none;
+}
+#portdcha img:hover{
+    filter: none;
+}
